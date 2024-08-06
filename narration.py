@@ -2,7 +2,7 @@ from elevenlabs import generate, set_api_key, save, RateLimitError
 import openai
 import os
 
-elevenlabs_key = "59e9177f6ffcb76613fbe028646da77b"
+elevenlabs_key = ""  # add elevenlabs key
 
 if elevenlabs_key:
     set_api_key(elevenlabs_key)
