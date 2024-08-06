@@ -8,7 +8,7 @@ import narration
 import images
 import video
 
-openai.api_key = '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'
+openai.api_key = '' #add openai key
 
 if len(sys.argv) < 2:
     print(f"USAGE: {sys.argv[0]} SOURCE_FILENAME")
