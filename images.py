@@ -2,7 +2,7 @@ import openai
 import base64
 import os
 
-openai.api_key = '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'
+openai.api_key = '' #add openai key
 
 def create_from_data(data, output_dir):
     if not os.path.exists(output_dir):
